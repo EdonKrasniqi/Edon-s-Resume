@@ -45,4 +45,26 @@ a {
     padding: 15px;
     color: white;
 }
+.home-text {
+    margin-left: 300px;
+    font-size: xx-large;
+    margin-top: 100px;
+}
 
+.button-work {
+    background-color: #3f3fff;
+    height: 50px;
+    width: 150px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+
+.view-work {
+    font-size: larger;
+}
+
+.man-pic {
+    float: right;
+    margin-top: -300px;
+    margin-right: 50px;
+}
