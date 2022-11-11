@@ -145,3 +145,46 @@ a {
     justify-content: center;
     margin-right: 260px;
 }
+.contact-me {
+    margin-left: 260px;
+    margin-top: 250px;
+}
+
+.contact-input {
+    width: 550px;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: #2A2A35;
+    color: white;
+    border: #3f3fff 1px solid;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.textarea-contact {
+    margin-bottom: 30px;
+    background-color: #2A2A35;
+    color: white;
+    border: #3f3fff 1px solid;
+    padding: 5px;
+    border-radius: 8px;
+    resize: none;
+}
+
+.send-contact {
+    background-color: #3f3fff;
+    color: white;
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: larger;
+}
+
+.section-contact {
+    margin-bottom: 80px;
+}
