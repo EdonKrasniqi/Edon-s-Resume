@@ -1,7 +1,7 @@
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
-
 
 body {
     background-color: #17171F;
@@ -45,7 +45,13 @@ a {
     padding: 15px;
     color: white;
 }
-    
+
+.home-text {
+    margin-left: 300px;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+
 .button-work {
     background-color: #3f3fff;
     height: 50px;
@@ -63,6 +69,7 @@ a {
     margin-top: -300px;
     margin-right: 50px;
 }
+
 .work {
     margin-left: 260px;
     margin-top: 400px;
@@ -101,3 +108,40 @@ a {
     margin-top: 12px;
 }
 
+.git-repos {
+    display: flex;
+    justify-content: center;
+    margin-right: 150px;
+}
+
+.skills {
+    margin-left: 260px;
+    margin-top: 350px;
+}
+
+.skill-div {
+    border: #3f3fff solid 1px;
+    color: white;
+    width: 500px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .skill-cards {
+    margin-left: 230px;
+} */
+
+
+.skill-pic {
+    margin: 15px;
+}
+
+.skill-cards {
+    display: flex;
+    justify-content: center;
+    margin-right: 260px;
+}
