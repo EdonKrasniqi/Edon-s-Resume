@@ -1,0 +1,48 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #17171F;
+    color: white;
+    font-family: sans-serif
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.menu {
+    padding: 15px;
+    color: white;
+    padding-top: 15px;
+}
+
+#active-dot {
+    position: fixed;
+}
+
+.contact-button {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #3f3fff;
+    color: white;
+    padding: 8px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
