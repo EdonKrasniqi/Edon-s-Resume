@@ -9,7 +9,6 @@ namespace Resume.Data
         {
 
         }
-
         public DbSet<Contact> Contacts { get; set; }
     }
 }

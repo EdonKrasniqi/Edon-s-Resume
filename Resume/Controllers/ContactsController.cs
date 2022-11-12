@@ -1,29 +1,23 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using Resume.Data;
 using Resume.Models;
-using System.Diagnostics;
 
 namespace Resume.Controllers
 {
-    public class HomeController : Controller
+    public class ContactsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public HomeController(ApplicationDbContext context)
+        public ContactsController(ApplicationDbContext context)
         {
             _context = context;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-        
         // GET: Contacts/Create
         public IActionResult Create()
         {
@@ -46,7 +40,7 @@ namespace Resume.Controllers
         }
         private bool ContactExists(int id)
         {
-            return _context.Contacts.Any(e => e.Id == id);
+          return _context.Contacts.Any(e => e.Id == id);
         }
     }
 }

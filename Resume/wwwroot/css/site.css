@@ -145,6 +145,18 @@ a {
     justify-content: center;
     margin-right: 260px;
 }
+.contact-bottom-button {
+    background-color: #3f3fff;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 37%;
+}
+.contactForm
+{
+    margin-left:35%;
+}
 .contact-me {
     margin-left: 260px;
     margin-top: 250px;
@@ -253,4 +265,101 @@ a {
     border-radius: 30px;
     scroll-behavior: smooth;
     transition: all .5s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .active-dots {
+        visibility: hidden;
+    }
+
+    #active-dot {
+        visibility: hidden;
+    }
+
+    .edon-header {
+        visibility: visible;
+        margin-left: 15px;
+    }
+
+    .main-header {
+        margin-left: -150px;
+    }
+
+    .header-links {
+        visibility: hidden;
+    }
+
+    #home {
+        width: 250px;
+        margin-right: 100px;
+        display: inline;
+        margin: 0;
+    }
+
+    .contact-button {
+        border: none;
+    }
+
+    .homeh1 {
+        margin-left: -250px;
+        font-size: 25px;
+    }
+
+    .button-work {
+        margin-left: 50px;
+        border: none;
+    }
+
+    .man-pic {
+        width: 350px;
+        height: 250px;
+        display: block;
+        margin-top: 80px;
+    }
+
+    .work {
+        margin-left: 10px;
+    }
+
+    .git-repos {
+        margin-left: 40px;
+        display: block;
+    }
+
+    .skills {
+        margin: 0;
+    }
+
+    .skill-cards {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        margin-left: 50px;
+    }
+
+    .contact-me {
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .contact-input {
+        width: 300px;
+    }
+
+    .textarea-contact {
+        width: 300px;
+    }
+
+    .send-contact {
+        border: none;
+        margin-left: 130px;
+    }
+
+    #hamburger-menu {
+        visibility: visible;
+        float: right;
+        margin-top: -70px;
+        margin-right: 20px;
+    }
 }
