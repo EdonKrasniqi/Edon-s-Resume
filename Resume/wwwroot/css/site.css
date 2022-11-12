@@ -188,3 +188,52 @@ a {
 .section-contact {
     margin-bottom: 80px;
 }
+.right-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-top: #3f3fff solid 1px;
+}
+
+.link-footer {
+    height: 20px;
+}
+
+.nav-dot {
+    border: #3f3fff solid 2px;
+    border-radius: 100%;
+    margin: 15px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    position: sticky;
+}
+
+    .nav-dot:hover .dots-span {
+        opacity: 1;
+    }
+
+.dots-span.active {
+    opacity: 1;
+}
+
+.dots-span {
+    transition: all 0.5s;
+    opacity: 0;
+    color: white;
+    margin-left: 35px;
+}
+
+.active-dots {
+    display: block;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 120px;
+    margin-top: 150px;
+}
+
+.active,
+.nav-dot.active {
+    background-color: #3f3fff;
+}
