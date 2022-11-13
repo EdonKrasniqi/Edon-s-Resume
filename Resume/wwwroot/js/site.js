@@ -1,17 +1,4 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
-//var header = document.getElementById("active-dot");
-//var btns = header.getElementsByClassName("nav-dot");
-//for (var i = 0; i < btns.length; i++) {
-//    btns[i].addEventListener("click", function () {
-//        var current = document.getElementsByClassName("active");
-//        current[0].className = current[0].className.replace(" active", "");
-//        this.className += " active";
-//    });
-//}
-
+﻿// This function is about active dots when you scroll, it will activate in the specific section of the page.
 function updateList() {
     const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
         return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);

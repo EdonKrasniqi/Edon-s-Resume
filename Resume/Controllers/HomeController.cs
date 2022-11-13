@@ -24,14 +24,14 @@ namespace Resume.Controllers
             return View();
         }
         
-        // GET: Contacts/Create
+        // GET: Home/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Contacts/Create
-
+        // POST: Home/Create
+        // This method is for creating a Contact
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Email,Message")] Contact contact)

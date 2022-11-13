@@ -268,6 +268,13 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
     .active-dots {
         visibility: hidden;
     }
@@ -328,6 +335,7 @@ a {
 
     .skills {
         margin: 0;
+        margin-left:10px;
     }
 
     .skill-cards {
@@ -340,7 +348,7 @@ a {
 
     .contact-me {
         margin: 0;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .contact-input {
@@ -356,10 +364,19 @@ a {
         margin-left: 130px;
     }
 
-    #hamburger-menu {
-        visibility: visible;
-        float: right;
-        margin-top: -70px;
-        margin-right: 20px;
+    .contact-bottom-button {
+        margin-left: 27%;
+        margin-top: 20%;
+        margin-bottom: -100px;
+        padding: 10px;
+    }
+    .right-footer{
+        margin-top:50px;
+    }
+    #myBtnScroll {
+        visibility: hidden;
+    }
+    .contactForm {
+        margin-left: 35px;
     }
 }
