@@ -1,0 +1,8 @@
+-> Connect to the Server
+-> RightClick on Database Folder
+-> Click Import Data-tier Application
+-> Click Next
+-> Click Browse and find the database you want to import (in this case EdonPortfolio)
+-> And in the next two pages just pres next.
+
+
